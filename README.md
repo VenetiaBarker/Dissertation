@@ -42,7 +42,7 @@ mean.
 ## Scoring rubrics
 
 All scoring criteria and their 0–2 level definitions are documented in
-`docs/scoring_rubrics.docx` (or see the methods chapter of the dissertation).
+the methods chapter of the dissertation.
 
 ## Requirements
 
