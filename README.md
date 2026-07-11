@@ -44,18 +44,6 @@ mean.
 All scoring criteria and their 0–2 level definitions are documented in
 the methods chapter of the dissertation.
 
-## Requirements
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-The pipeline is written for Google Colab (it mounts Google Drive and reads API
-keys from Colab secrets), but the core class runs anywhere with the listed
-packages.
-
 ## Setup
 
 1. **API keys.** The pipeline calls several model providers. Set the following
@@ -103,7 +91,3 @@ previous stage's checkpoint.
 - Guideline text is truncated to a fixed character budget where required; very
   long guidelines may not be fully represented.
 
-## Licence
-
-Code is released under the MIT Licence (see `LICENSE`). NICE guideline content
-is not included and remains the property of NICE.
